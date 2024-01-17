@@ -12,12 +12,12 @@
 <body>
 	<div class="container">
 		<header>
-			<h1 id="lucro">KZ 100,750</h1>
+			<h1 id="lucro">KZ ...</h1>
 		</header>
 		<main>
 			<section>
-				<h2 id="investimento">Investimento: </h2>
-				<h2 id="retorno">Retorno:</h2>
+				<h2 id="investimento">Inv: 0 KZ</h2>
+				<h2 id="retorno">Ret: 0 KZ</h2>
 
 				<hr>
 				<br>
@@ -28,29 +28,19 @@
 				<label for="precoDaCompra">Preço da compra (KZ)</label>
 				<input type="number" name=""  id="precoDaCompra" placeholder="850 KZ">
 
-				<label for="taxas">Taxas, carregamento + compra + binance (%)</label>
-				<input type="number" name="" id="taxas" placeholder="850 KZ">
+				<label for="taxaDaCompra">Taxas, carregamento + compra(%)</label>
+				<input type="number" name="" id="taxaDaCompra" placeholder="6 %">
 
 				<label for="precoDaVenda">Preço da venda</label>
 				<input type="number" name="" id="precoDaVenda" placeholder="1 125 KZ">
 
-				<label for="quantidadeAVender">Qauntidade a vender</label>
-				<input type="number" name="" id="quantidadeAVender" placeholder="400 USDT">
+				<label for="taxaBinance">Taxa Binance(%)</label>
+				<input type="number" name="" id="taxaBinance" placeholder="2 %">
 			</section>
-			
-			<button id="calcular">Meu Luei $</button>
 		</main>
+		
+		<script type="text/javascript" src="./index.js"></script>
 	
-		<script>
-		  document.getElementById('quantidadeDeUSD').addEventListener('focus', function() {
-		    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0');
-		  });
-
-		  document.getElementById('quantidadeDeUSD').addEventListener('blur', function() {
-		    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1.0');
-		  });
-		</script>
-
 	</div>
 </body>
 </html>
