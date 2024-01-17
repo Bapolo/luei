@@ -22,9 +22,9 @@ body
 	max-width: 100%;
 }
 
-#investimento
+section
 {
-	outline: 1px solid rgba(212, 211, 207, 0.);
+	outline: 1px solid rgba(212, 211, 207, 1);
 	padding: 0.5rem;
 }
 
