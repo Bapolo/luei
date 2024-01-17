@@ -10,7 +10,7 @@
 body
 {
 	padding: 1.2rem;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 #container
@@ -48,7 +48,21 @@ input
 	margin: 0.3rem auto 1.3rem auto;
 	outline: 1px solid rgba(0, 0, 0, 0.5);
 	border: none;
-	padding: 0.3rem 0.6rem;
+	padding: 0.3rem 1rem;
 	width: 90%;
 }
 
+
+#calcular
+{
+	outline: none;
+	border: none;
+	background: blue;
+	color: white;
+	font-weight: 300;
+	display: block;
+	margin: 0.8rem auto;
+	padding: 0.6rem 1.2rem;
+	width: 50%;
+	border-radius: 8px;
+}
