@@ -57,7 +57,8 @@ input
 {
 	outline: none;
 	border: none;
-	background: blue;
+	background: rgba(255, 118, 2, 1.0);
+	font-size: 18px;
 	color: white;
 	font-weight: 300;
 	display: block;
