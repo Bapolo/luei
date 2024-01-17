@@ -12,7 +12,8 @@ body
 {
 	padding: 1.2rem;
 	font-size: 20px;
-	max-width: 100%;
+	width: 100%;
+	max-zoom: ;
 }
 
 #container
@@ -58,4 +59,7 @@ input
 }
 
 
-
+input:focus
+{
+	max-zoom: 1.5;
+}
