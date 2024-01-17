@@ -4,11 +4,13 @@
 	padding: 0;
 	box-sizing: border-box;
 	color: #333;
+	font-family: 'Montserrat', sans-serif;
 }
 
 body
 {
 	padding: 1.2rem;
+	font-size: 16px;
 }
 
 #container
@@ -46,7 +48,7 @@ input
 	margin: 0.3rem auto 1.3rem auto;
 	outline: 1px solid rgba(0, 0, 0, 0.5);
 	border: none;
-	padding: 0.3rem;
+	padding: 0.3rem 0.6rem;
 	width: 90%;
 }
 
