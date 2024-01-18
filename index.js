@@ -12,9 +12,6 @@ window.addEventListener('DOMContentLoaded', () =>
 
 
 
-	const app = () =>
-	{
-
 		inputs.forEach(input => 
 		{
 			input.addEventListener('input', () =>
@@ -52,8 +49,5 @@ window.addEventListener('DOMContentLoaded', () =>
 		})
 
 
-		
-	}
-
-	setInterval(app, 100);
+	
 })
